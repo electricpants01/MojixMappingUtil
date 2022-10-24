@@ -361,7 +361,6 @@ public class MainForm extends javax.swing.JFrame {
                 e.printStackTrace();
             } finally {
                 if(scan != null) scan.close();
-                if(inputStream != null) inputStream.close();
             }
         }
         
